@@ -3,88 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Visitor Parking Instructions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Modern font */
+            line-height: 1.6; /* Better readability */
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f4f6; /* Light background color */
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50; /* Darker text color */
+            margin-bottom: 20px; /* Space below heading */
+        }
+        ol {
+            max-width: 800px; /* Limiting width for readability */
+            margin: auto; /* Center the list */
+            padding-left: 20px; /* Padding for list */
+            list-style-type: decimal; /* Default numbering style */
+        }
+        li {
+            background: #ffffff; /* White background for list items */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            padding: 15px; /* Padding for list items */
+            margin-bottom: 15px; /* Space between list items */
+            transition: box-shadow 0.3s ease; /* Smooth transition */
+        }
+        li:hover {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+        }
+        img {
+            max-width: 100%; /* Responsive images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 4px; /* Slightly round the corners of images */
+            margin-top: 10px; /* Space above images */
+        }
+        .rotate {
+            transform: rotate(90deg);
+        }
+        .thank-you {
+            text-align: center; /* Center the thank you message */
+            font-size: 1.2em; /* Slightly larger font for emphasis */
+            color: #666; /* Lighter text color */
+            margin-top: 30px; /* Space above thank you message */
+            padding: 10px;
+            background-color: #e7f3fe; /* Light blue background for the message */
+            border: 1px solid #b9e1fe; /* Blue border */
+            border-radius: 8px; /* Rounded corners */
+        }
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            li {
+                padding: 10px; /* Less padding on smaller screens */
+            }
+            .thank-you {
+                font-size: 1em; /* Smaller font on mobile */
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Instructions to Visitor Parking</h1>
+    <h1>Instructions to Visitor Parking</h1>
     <hr>
     <ol>
         <li>
-            From Gilmore station, go straight 
-            <br>
-            <img src="./Images/Minus-one.jpeg" height="200">     
+            From Gilmore station, go straight.
+            <img src="./Images/Minus-one.jpeg" alt="Image showing the direction">
         </li>
-        <br>
         <li>
             Turn right at the first intersection.
-            <br>
-            <img src="./Images/Zero.jpeg" height="200">  
-            
+            <img src="./Images/Zero.jpeg" alt="Turn right at the intersection">
         </li>
-       <br>
-        <li> 
-            Take the next available right turn. (Here)
-            <br>
-            <img src="./Images/One.jpeg" height="220">
-            
+        <li>
+            Take the next available right turn.
+            <img src="./Images/One.jpeg" alt="Next right turn">
         </li>
-        <br>
-        <li> Continue straight.
-            <br>
-            <img src="./Images/Two.jpeg" height="220">
-            
+        <li>
+            Continue straight.
+            <img src="./Images/Two.jpeg" alt="Continue straight">
         </li>
-        <br>
-        <li> Enter through the “Parking” entrance.
-            <br>
-            <img src="./Images/Three.jpeg" height="220">
+        <li>
+            Enter through the “Parking” entrance.
+            <img src="./Images/Three.jpeg" alt="Parking entrance">
         </li>
-        <br>
-
-        <li> Take a ticket from the machine labeled “Flash”. (Do not lose this ticket)
-            <br>
-            <img src="./Images/Four.jpeg" height="220">
+        <li>
+            Take a ticket from the machine labeled “Flash.”
+            <img src="./Images/Four.jpeg" alt="Flash machine">
         </li>
-        <br>
-        <li>When you see purple color stalls, keep turning right until you reach P3 (Visitor Parking). 
-            <br>
-            <img src="./Images/Five.jpeg" height="220" width="220" style="transform: rotate(90deg);">
+        <li>
+            When you see purple color stalls, keep turning right until you reach P3 (Visitor Parking).
+            <img src="./Images/Five.jpeg" alt="Purple stalls" class="rotate">
         </li>
-        <br>
-        <li>Continue turning right until you arrive here. 
-            <br>
-            <img src="./Images/Six.jpeg" height="220">
-            
+        <li>
+            Continue turning right until you arrive here.
+            <img src="./Images/Six.jpeg" alt="Continue turning right">
         </li>
-        <br>
-        <li> At the screen, find "T1 4403" and call then I'll open the gate. Once inside, park in any available spot.
-            <br>
-            <img src="./Images/Seven.jpeg" height="220">
-            
+        <li>
+            At the screen, find "T1 4403" and I'll open the gate. Once inside, park in any available spot.
+            <img src="./Images/Seven.jpeg" alt="Screen showing T1 4403">
         </li>
-        <br>
-        <li> Look for this gate that directs you to the resident building, and stand under the red sensor to open the gate.
-            <br>
-            <img src="./Images/Eight.jpeg" height="220" width="220" style="transform: rotate(90deg)">
-            
+        <li>
+            Look for this gate that directs you to the resident building, and stand under the red sensor to open the gate.
+            <div style= "width: 100%; max-width: 600px; margin: auto;"> <!-- Adjust max-width as needed -->
+                <img src="./Images/Eight.jpeg" alt="Gate sensor" class="rotate" style="width: 100%; height: auto; border-radius: 4px;">
+            </div>
         </li>
-        <br>
-        <li> Go straight to the door.
-            <br>
-            <img src="./Images/Nine.jpeg" height="220">
-            
+        
+        
+        <li>
+            Go straight to the door.
+            <img src="./Images/Nine.jpeg" alt="Door to enter">
         </li>
-        <br>
-        <li> Once here, text Min or Matina (Public Wi-Fi is available on P3, so try to get a Wi-Fi and DM)
-            <br>
-            <img src="./Images/Ten.jpeg" height="220">
-            
+        <li>
+            Once here, text Min or Matina (Public Wi-Fi is available on P3, so try to get a Wi-Fi and DM).
+            <img src="./Images/Ten.jpeg" alt="Text Min or Matina">
         </li>
-        <br>
-        <li>When leaving the building, find this validation machine, scan your ticket and you’ll have 20 mins to exit the building. Thanks for coming to the bday party! 🥳🫶
-            <br>
-            <img src="./Images/Eleven.jpeg" height="220" width="220" style="transform: rotate(90deg)">
+        <li>
+            When leaving the building, find this validation machine, scan your ticket and you’ll have 20 mins to exit the building.
         </li>
     </ol>
+    <div class="thank-you">
+        Thanks for coming to the birthday party! 🥳🫶
+    </div>
 </body>
 </html>
