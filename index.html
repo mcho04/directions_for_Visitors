@@ -35,14 +35,12 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
         }
         img {
-            max-width: 100%; /* Responsive images */
+            width: 100%; /* Responsive images */
             height: auto; /* Maintain aspect ratio */
             border-radius: 4px; /* Slightly round the corners of images */
             margin-top: 10px; /* Space above images */
         }
-        .rotate {
-            transform: rotate(90deg);
-        }
+        
         .thank-you {
             text-align: center; /* Center the thank you message */
             font-size: 1.2em; /* Slightly larger font for emphasis */
@@ -55,6 +53,9 @@
         }
         /* Responsive adjustments */
         @media (max-width: 600px) {
+            body {
+                padding: 10px; /* Reduce padding on smaller screens */
+            }
             li {
                 padding: 10px; /* Less padding on smaller screens */
             }
@@ -77,7 +78,7 @@
             <img src="./Images/Zero.jpeg" alt="Turn right at the intersection">
         </li>
         <li>
-            Take the next available right turn.
+            Take the next available right turn (Turn right at the Lougheed Highway).
             <img src="./Images/One.jpeg" alt="Next right turn">
         </li>
         <li>
@@ -89,43 +90,42 @@
             <img src="./Images/Three.jpeg" alt="Parking entrance">
         </li>
         <li>
-            Take a ticket from the machine labeled “Flash.”
+            From the machine labeled "Flash," choose "English" and then "Get a ticket."
             <img src="./Images/Four.jpeg" alt="Flash machine">
         </li>
         <li>
             When you see purple color stalls, keep turning right until you reach P3 (Visitor Parking).
-            <img src="./Images/Five.jpeg" alt="Purple stalls" class="rotate">
+            <img src="./Images/Five.jpeg" alt="Purple stalls">
         </li>
         <li>
             Continue turning right until you arrive here.
             <img src="./Images/Six.jpeg" alt="Continue turning right">
         </li>
         <li>
-            At the screen, find "T1 4403" and I'll open the gate. Once inside, park in any available spot.
+            At the screen, find "T1 4403" and I'll open the gate. Then go inside the visitor parking.
             <img src="./Images/Seven.jpeg" alt="Screen showing T1 4403">
         </li>
         <li>
-            Look for this gate that directs you to the resident building, and stand under the red sensor to open the gate.
-            <div style= "width: 100%; max-width: 600px; margin: auto;"> <!-- Adjust max-width as needed -->
-                <img src="./Images/Eight.jpeg" alt="Gate sensor" class="rotate" style="width: 100%; height: auto; border-radius: 4px;">
-            </div>
+            After you enter the visitor parking, take a left and keep going straight. You will see a gate on your right. Park near the gate. Then look for the red sensor on the ceiling near the gate, and wave at it until it opens.
+            <img src="./Images/Eight.jpeg" alt="Gate sensor">
         </li>
-        
-        
         <li>
-            Go straight to the door.
+            After passing the gate, walk straight to the elevator doors.
             <img src="./Images/Nine.jpeg" alt="Door to enter">
         </li>
         <li>
-            Once here, text Min or Matina (Public Wi-Fi is available on P3, so try to get a Wi-Fi and DM).
+            Once here, DM Min or Matina (If you have any trouble, join the public wifi which is literally named "public wifi" and DM us).
             <img src="./Images/Ten.jpeg" alt="Text Min or Matina">
         </li>
         <li>
-            When leaving the building, find this validation machine, scan your ticket and you’ll have 20 mins to exit the building.
+            When leaving the building, go straight to the gate you waved to before. 
+            There’s a white door on the right side of the gate; enter visitor parking through that white door.  
+            Then, find this validation machine, scan your ticket and you’ll have 20 minutes to exit the building.
+            With your car, find the gate you entered with your car. Keep turning left until you reach the exit.
         </li>
     </ol>
     <div class="thank-you">
-        Thanks for coming to the birthday party! 🥳🫶
+        Thanks for coming to the birthday party! 🥳🫶❤️
     </div>
 </body>
 </html>
